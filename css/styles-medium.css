@@ -1,0 +1,30 @@
+div#logo {
+  padding: 0;
+  justify-content: flex-start;
+  padding-right: 50px;
+  order: 2;
+  flex-grow: 0;
+}
+
+header {
+  flex-direction: row;
+}
+
+header > div.col-960 {
+  display: flex;
+  background: #fff;
+  flex-direction: row;
+  justify-content: flex-end;
+  max-width: 960px;
+  width: 100vw;
+}
+
+div#header-text {
+  align-items: flex-end;
+  /*margin: 0 25px 0 0;*/
+}
+
+div#header-text {
+  order: 1;
+  /*flex-grow: 1;*/
+}

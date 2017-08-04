@@ -1,0 +1,59 @@
+div#logo {
+  padding: 0;
+  justify-content: flex-start;
+  padding: 0 25px 0 0;
+}
+
+header {
+  flex-direction: row;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  justify-content: center;
+}
+
+header > div.col-960 {
+  display: flex;
+  background: #fff;
+  flex-direction: row;
+  max-width: 960px;
+  width: 100%;
+}
+
+div#header-text > h1 {
+  font-size: 1.8em;
+}
+
+div#header-text > h5 {
+  font-size: 1.1em;
+}
+
+div#header-text {
+  align-items: flex-end;
+}
+
+div#featured-work-container {
+  flex-direction: row;
+  margin: 0;
+}
+
+div.featured-item {
+  width: 33%;
+  padding: 25px;
+}
+
+div#logo {
+  order: 2;
+  flex-grow: 0;
+}
+
+div#header-text {
+  order: 1;
+  flex-grow: 1;
+}
+
+div#hero {
+  height: 100vh;
+  overflow: hidden;
+}
