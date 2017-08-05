@@ -1,4 +1,4 @@
-div#logo {
+#logo {
   padding: 0;
   justify-content: flex-start;
   padding: 0 25px 0 0;
@@ -13,7 +13,7 @@ header {
   justify-content: center;
 }
 
-header > div.col-960 {
+header > .col-960 {
   display: flex;
   background: #fff;
   flex-direction: row;
@@ -21,39 +21,39 @@ header > div.col-960 {
   width: 100%;
 }
 
-div#header-text > h1 {
+#header-text > h1 {
   font-size: 1.8em;
 }
 
-div#header-text > h5 {
+#header-text > h5 {
   font-size: 1.1em;
 }
 
-div#header-text {
+#header-text {
   align-items: flex-end;
 }
 
-div#featured-work-container {
+#featured-work-container {
   flex-direction: row;
   margin: 0;
 }
 
-div.featured-item {
+.featured-item {
   width: 33%;
   padding: 25px;
 }
 
-div#logo {
+#logo {
   order: 2;
   flex-grow: 0;
 }
 
-div#header-text {
+#header-text {
   order: 1;
   flex-grow: 1;
 }
 
-div#hero {
+#hero {
   height: 100vh;
   overflow: hidden;
 }
