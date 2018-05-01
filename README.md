@@ -1,6 +1,6 @@
 # Udacity Project - Portfolio
 
-A simple portfolio page create for Udacity's Full Stack Web Developer Nanodegree.
+A simple portfolio page created for Udacity's Full Stack Web Developer Nanodegree.
 
 ## Project Requirements
 
